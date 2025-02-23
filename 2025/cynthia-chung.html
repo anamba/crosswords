@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content" />
     <meta name="HandheldFriendly" content="True">
     <title>Cynthia Chung Crossword by Aaron Namba</title>
-    <link href="/solver/css/crosswordnexus.css" rel="stylesheet">
-    <link href="/custom/custom.css" rel="stylesheet">
+    <link href="../solver/css/crosswordnexus.css" rel="stylesheet">
+    <link href="../custom/custom.css" rel="stylesheet">
 
     <!-- the main crossword JavaScript -->
-    <script src="/solver/js/crosswords.js"></script>
+    <script src="../solver/js/crosswords.js"></script>
 
     <!-- jQuery -->
-    <script src="/solver/lib/jquery.js"></script>
+    <script src="../solver/lib/jquery.js"></script>
 
     <!-- for loading crosswords -->
-    <script src="/solver/lib/jscrossword_combined.js"></script>
+    <script src="../solver/lib/jscrossword_combined.js"></script>
 
     <!-- for saving crosswords -->
-    <script src="/solver/lib/lscache.min.js"></script>
+    <script src="../solver/lib/lscache.min.js"></script>
 
     <!-- for printing -->
-    <script src="/solver/lib/jspdf-2_5_1.min.js"></script>
-    <script src="/solver/lib/xw_pdf.js"></script>
+    <script src="../solver/lib/jspdf-2_5_1.min.js"></script>
+    <script src="../solver/lib/xw_pdf.js"></script>
 
     <!-- for dark mode -->
-    <script src="/solver/lib/darkreader.min.js"></script>
+    <script src="../solver/lib/darkreader.min.js"></script>
 
     <style>
         html,
@@ -52,7 +52,7 @@
 
     <script>
         (function () {
-            var puzzle = "/2025/cynthia-chung-v3.jpz?v=" + new Date().getTime();
+            var puzzle = "../2025/cynthia-chung-v3.jpz?v=" + new Date().getTime();
 
             // Create the crossword
             CrosswordNexus.createCrossword($('div.crossword'), {
