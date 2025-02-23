@@ -1,0 +1,17 @@
+.cw-top-text-wrapper {
+  background-color: #a6d7fe;
+}
+
+.cw-button {
+  --button-background-color: #ececec;
+  --button-background-color-hover: #f5f5f5;
+  --button-shadow-color: #e1e1e1;
+}
+
+.cw-button:hover {
+  background-color: var(--button-background-color-hover);
+}
+
+.cw-clue.active {
+	background: #a6d7fe;
+}
